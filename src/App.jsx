@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import SimpleForm from './components/SimpleForm'
 import { MultiInputForm } from './components/MultiInputForm'
+import AdvancedForm from './components/AdvancedForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,9 @@ function App() {
   return (
     <>
       {/* <SimpleForm /> */}
-      <MultiInputForm/>
+      {/* <MultiInputForm/> */}
+
+      <AdvancedForm />
     </>
   )
 }
