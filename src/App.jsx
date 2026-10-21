@@ -6,6 +6,7 @@ import './App.css'
 import SimpleForm from './components/SimpleForm'
 import { MultiInputForm } from './components/MultiInputForm'
 import AdvancedForm from './components/AdvancedForm'
+import { UncontrolledForm } from './components/UncontrolledForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,9 @@ function App() {
       {/* <SimpleForm /> */}
       {/* <MultiInputForm/> */}
 
-      <AdvancedForm />
+      {/* <AdvancedForm /> */}
+
+      <UncontrolledForm />
     </>
   )
 }
