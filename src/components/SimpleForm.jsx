@@ -14,8 +14,12 @@ const SimpleForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
         alert("Form Submitted")
         console.log("Name", name, "Email", email, "Password", password);
+        setName("");
+        setEmail("");
+        setPassword("")
 
 
     }
